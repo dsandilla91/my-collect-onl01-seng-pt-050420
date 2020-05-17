@@ -7,7 +7,7 @@ def my_collect(collection)
   newCollection = []
   
     while (i < collection.length) do 
-      yield collection[i] <<  
+      yield my_collect <<  collection[i]
  
   
   newCollection.push(collection[i].upcase)
