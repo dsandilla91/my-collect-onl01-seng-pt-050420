@@ -6,7 +6,7 @@ def my_collect(collection)
   i = 0 
   newCollection = []
   
-    while (i < collection.length) do 
+    while (i < collection.length.split(" ").first do 
       yield collection[i] 
  
   
