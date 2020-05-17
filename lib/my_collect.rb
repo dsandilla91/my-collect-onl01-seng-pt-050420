@@ -7,7 +7,9 @@ def my_collect(collection)
   newCollection = []
   
     while (i < collection.length) do 
-      yield collection[i]
+      yield collection[i] do |collection|
+  collection.split(" ").first
+end 
   
   newCollection.push(collection[i].upcase)
     i += 1 
