@@ -9,7 +9,7 @@ def my_collect(collection)
     while (i < collection.length) do 
       yield collection[i]
       
- 
+  my collect.push(newCollection)
   
   newCollection.push(collection[i].upcase)
     i += 1 
