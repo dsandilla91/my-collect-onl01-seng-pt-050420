@@ -9,7 +9,7 @@ def my_collect(collection)
     while (i < collection.length) do 
       yield collection[i]
   
-my_collect(collection) do |collection|
+  newCollection(collection) do |collection|
   collection.split(" ").first
 end
   
