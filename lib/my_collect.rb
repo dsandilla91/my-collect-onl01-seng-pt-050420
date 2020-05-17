@@ -9,10 +9,6 @@ def my_collect(collection)
     while (i < collection.length) do 
       yield collection[i]
   
-  newCollection(collection) do |collection|
-  collection.split(" ").first
-end
-  
   newCollection.push(collection[i].upcase)
     i += 1 
 
